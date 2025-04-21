@@ -34,7 +34,7 @@ A few sample text files are included with this repo, if you desire to use them f
 
 **sample_cave.txt** Select Cave Johnson transcribed dialouge from *Portal 2*.
 
-**sample_ultrapoems.txt** Select short poems from *ULTRAKILL*
+**sample_ultrapoems.txt** Select short poems from *ULTRAKILL.*
 
 **sample_missile.txt** "The missile knowsh where it is" copypasta.
 
