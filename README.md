@@ -26,6 +26,9 @@ So, a file of random values would not work, but the entirety of the bee movie sc
 
 A few sample text files are included with this repo, if you desire to use them for the program. (or are too lazy to find your own, which is fair)
 
+Provided files:
+**sample_patchnotes** A sample of patch notes from the game *ULTRAKILL*.
+
 ## How do I install this?
 Clone this repository via your desired method.
 
