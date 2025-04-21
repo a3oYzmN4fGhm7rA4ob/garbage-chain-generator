@@ -1,5 +1,6 @@
 # garbage-chain-generator
 A simple generator for making nonsense text based on an input .txt file.
+Not much to say here.
 
 ## Requirements:
 Python 3.12.3 or greater.
