@@ -55,5 +55,5 @@ Run the script, again via your preferred method. See the section on usage for mo
 
 *Example*
 ```
-python3 chain.py -file sample_patchnotes -length 100
+python3 chain.py -file sample_patchnotes.txt -length 100
 ```
