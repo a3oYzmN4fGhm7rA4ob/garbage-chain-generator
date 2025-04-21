@@ -13,12 +13,12 @@ You can run it with the -h flag to get a list of required args if you forget the
 
 ### Arguments
 ```
--file
+-file [YOUR_FILE_NAME_OR_PATH_HERE]
 ```
 *Input name or path of the text file for the script to use.*
 
 ```
--length
+-length [INTEGER]
 ```
 *The length (in words) of the string to output, as in integer.*
 
