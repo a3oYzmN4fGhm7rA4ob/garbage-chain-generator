@@ -34,5 +34,5 @@ def main():
         word_1, word_2 = word_2, thing
     print(textwrap.fill(' '.join(output)))
 
-print("-| a3's garbage text chain generator |- \n")
+print("-| a3's garbage text chain generator |- \n please wait, this may take a moment based on the size of the file\n")
 main()

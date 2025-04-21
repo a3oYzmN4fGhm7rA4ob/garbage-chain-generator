@@ -5,6 +5,8 @@ Not much to say here.
 ## Requirements
 Python 3.12.3 or greater.
 
+Note: Don't input absolutely massive text files, this might cause issues.
+
 ## How do I use this?
 Run the script, providing command line arguments as needed. 
 You can run it with the -h flag to get a list of required args if you forget them.
