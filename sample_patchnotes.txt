@@ -1,0 +1,222 @@
+Improved performance
+Added option to completely disable fog in the Cyber Grind
+Dash jumps performed via enemy step now only cost 1 bar of stamina
+Radiant Idols now have a rainbow-colored halo to make them easier to distinguish
+Alternate Shotgun can now launch dying Mindflayers
+Greatly reduced chances of Virtues getting pushed away by the player while Whiplashing towards them
+Insurrectionists can no longer be killed by their boulder touching a death zone
+Fixed the Last Used Weapon bind not remembering the last used variation
+Fixed the Last Used Weapon bind not remembering the last used weapon after loading to a different level
+Fixed the scroll wheel when set to swap variations while the "On Swap to Same" option is set to "First Variation"
+Bloodsplatters now work with the Disable New Shaders option
+Fixed the 7-2 clock tower checkpoint not activating
+Fixed the 1-4 "Pick up to read" tutorial not activating
+Fixed tutorials breaking if a relevant key is unbound
+Hide UI cheat now also hides cutscene skip text and level specific UI elements, such as countdowns
+Added an advanced option for disabling the scrolling textures of the P-2 red tunnel
+Fixed inconsistencies in the launch force of the P-2 red tunnel hurt surfaces
+Swordsmachines on Brutal difficulty can no longer cancel their attacks by catching a thrown sword
+Firestarter fire no longer reduces the style rank
+Added environmental impact effects to a couple weapons that were missing them
+Fixed custom color palettes not enabling correctly
+Fixed the game speed major assist not applying correctly
+Changing the game speed major assist no longer causes time to inch forward
+Fixed sound glitching out after pausing and unpausing during the Cyber Grind score screen
+0-E heat buildup is now slower on lower difficulties
+Fixed the 0-E skulls room ceiling fan dealing damage before being turned on
+1-E lava room Malicious Faces no longer walk off their pillars
+1-E's skybox stops changing while the player is exiting the level
+Fixed dual wielded weapons sometimes not changing when swapping to another gun
+Increased radius of igniting Firestarter gasoline for large explosions
+Removed the last remaining instakill pits from 1-4, 1-E and 2-1
+Moved the 2-1 elevator test panel to no longer block a Stray's line of sight
+Removed the collision from the lip of a pipe in 2-1's secret path
+Changed the name of the style bonus gained by punching 4-4 V2 with the Knuckle blaster
+Removed collision from the 4-S boulder run torches
+5-1 Sentries should no longer be able to walk inside of doors
+5-2 piers no longer cause excessive amounts of massive debris when hit by lightning
+5-S overlay now disappears when the player drops into the exit
+6-1's chandeliers now deflect projectiles when shattering
+The 7-1 trams no longer cause blue rubble when ground slammed
+Fixed the 7-1 secret Cerberi not having extra health
+Removed unintended spawn effects from some 7-3 arenas
+Fixed the Marksman coin's flash not facing the player
+Toggling the Puppet option on an enemy no longer causes a duplicate enemy to appear
+Dithering no longer breaks the intro calibration sequence
+Fixed errors caused by the projector in the Museum
+Fixed various occlusion culling bugs
+Reduced z-fighting when using PSX Vertex Warping in the 0-4 rotating hallway
+Fixed a hole in the 1-1 secret exit geometry
+Fixed 1-S not being marked as completed if the player exits via the OOB clip
+Fixed the 2-2 generator room particles not layering correctly
+Fixed a navmesh issue in 2-2 not allowing Soldiers from the first room to walk up the stairs towards the generator room
+Removed a small gap in the floor near the 7-S start room
+Fixed the V1 diagram in the difficulty select not being correctly centered
+Fixed a typo in the P-1 end terminal
+Fixed the custom music option in the Cyber Grind
+Fixed a bug that caused the player to clip through thin ceilings
+Fixed the 5-2 idol room disappearing when entered
+Sped up punch exhaustion regeneration by 25%
+Removed all console logs and warnings since they caused performance hitches for some players
+Remember Last Used Weapon now carries over between levels
+Last Used Weapon bind no longer considers each variation a separate weapon
+Fixed the Sandbox rebuilt navmeshes not working
+Fixed the tutorial graphics options not working
+Insurrectionists are now immune to the Cyber Grind laser grid
+Hitting an enemy with the ground slam no longer causes the player to not get the appropriate vertical height after jumping from that slam
+Ground slam shockwaves no longer have 0 launching power if the player jumps before the shockwave comes out
+Enemy outlines no longer appear through walls sometimes
+Fixed assist outlines not working in some levels
+Fixed visual artifacting on the small railcannon meter
+Fixed the small railcannon meter not working properly with the Always On Top option
+Added flesh walls to the tops of the P-1 parasite decorations for collision
+Fixed more P-2 OOBs
+Clash mode now ignores air friction when moving fast enough
+Clash mode camera now strictly follows the player's vertical position in free camera mode (ie. using the cheat outside 4-S)
+Fixed the Prime, Testament and Sandbox terminals not playing music
+Fixed Malicious Faces and all Drone-type enemies healing 10x from nails (Malicious Faces and Virtues still heal 3x)
+Spawner arm altars now have proper collision
+Fire damage from the Firestarter's gasoline no longer causes hard damage
+Fixed the superheal and dual wield powerups being darker than they should be
+The 2-4 tram can no longer instakill Corpse of King Minos
+The exit to 7-S no longer opens without a skull with the Disable Enemy Spawns cheat enabled
+Fixed the ceiling ribbing in 0-E's exit hallway not having collision
+Dying in lava no longer leaves the underwater filter on screen
+Fixed the 5-3 upside down staircase having the old handrail
+Fixed the sandbox explosive barrel having no texture when shot
+Reduced the chances of the player clipping through surfaces that are moving towards them (ie. the Cyber Grind arena)
+Fixed game crashing on exit sometimes
+Added "Disable New Shaders" graphic option to fix the game only displaying a black screen on very old computers (should be automatically enabled if necessary)
+Death screen now correctly instantly goes to black when killed by certain methods
+The "First Room" option of the Teleport cheat now properly places the player in bounds
+Reduced ground slam shockwave delay from 0.15s to 0.1s
+Clash mode belly flop no longer causes the player to fly up into the air when timed with a spin
+Shop terminals that play no music also no longer play the SmileOS 2.0 jingle
+"Hide UI" cheat now correctly hides the Cheats Enabled overlay
+The level results clicking sound no longer continues playing while paused
+Fixed the crosshair colors option not displaying all colors
+Replaced 4-1 and 4-2's heat distortion disable option with a universal heat distortion disable option
+The Encore popups now work properly on controller
+Transferred the major assists popup to the new UI graphics style
+Underwater state no longer breaks when killing a fish underwater
+Player can no longer get stuck in an underwater state after exiting water
+Fixed "Remember Last Used Weapon Variant" not working
+Fixed the Last Used Weapon bind
+Fixed projectiles and explosions not causing environmental particle effects on impact
+Fixed the smaller Railcannon meter not working when weapon icons are disabled
+Fixed Freeze Frame not automatically unfreezing after a Core Eject has been used
+Fixed weapon disappearing when pressing the individual variation button for a variation the player hasn't unlocked yet
+The Malicious Railcannon no longer uses the old lightning sprites when fully charged
+Fixed capitalization on the Pump Charge variation
+Corrected the color of the dual wield powerup
+Fixed the scrolling texture on explosions not working
+Reduced punch exhaustion for Knuckleblaster
+Fixed a bug that caused pressing punch too early to increase punch exhaustion despite not actually punching
+The cooldown of an individual arm's punches now resets to a maximum of 0.1s when switching arms or using Whiplash
+Arm icon now shows up even when only one arm is equipped
+The whiplash icon in the shop now shows up as "?" until unlocked
+Fixed the spawner arm not being colored white
+5-S and 7-S no longer use the old arm model
+Added the punch exhaustion meter to the Classic HUDs
+Recolored the punch exhaustion meter to be easier to distinguish when not full
+Reduced Cerberus' radiance speed bonus on Brutal difficulty
+Fixed Cerberi dashing off ledges even when not enraged
+Lowered the volume and shortened the length of the radiant enemy spawn sound
+Fixed Gabriel's Brutal difficulty spiral swords still attempting to stab the player after despawning when the fight ends
+Enemy sounds no longer muffle when in shallow water
+Added bigger enemy names in the terminal
+Fixed Schism beams dealing extreme damage to the player after being parried
+Removed a possible performance issue caused by Swordsmachines
+Fixed occlusion culling issues in multiple levels
+Fixed z-fighting issues in multiple levels
+Enemies that spawn behind breakables no longer spawn when Disable Enemy Spawns is enabled
+Fixed a transparent floor issue in the start room elevator shaft if Vertex Warping is enabled
+The main menu's sound is no longer high pitched when first booted up with lower game speed via major assists
+Prime Sanctum results screens now share the Encore result screen layouts
+Fixed players being able to fly out of bounds through the ceiling of a 0-1 and 0-E room
+Fixed a bug that caused the player to be displaced after picking up the Revolver in 0-1 while in Clash mode
+Fixed enemies not being able to walk under the crusher in the first crusher arena in 0-2
+Fixed the first Strays in 0-2 being able to walk inside a wall
+Fixed a rare issue where the grinders from the 0-2 bonus platforming section would clip into the secret fight arena
+0-3 Swordsmachine first fight no longer happens if the player backtracks to it after beating the second fight
+Fixed the 0-3 and 0-4 level select panels still only showing 3 secrets if the player has a save from before they were increased to 5
+Fixed an invisible collision in 0-S
+Fixed a missing ceiling in 0-S
+0-E now functions correctly while using the Disable Enemy Spawns cheat
+The player is no longer immune to 0-E's effects while at over 100 health
+Fixed a stuck spot behind a frozen crusher in 0-E
+The fan in the skulls room of 0-E no longer causes the player to be teleported out of bounds
+Returning to the 0-E skulls room after activation no longer causes snow to reappear
+Enemies in 0-E's snow arena can no longer fall through the snow
+Moved pipes in the first room to the right after the crossroads checkpoint in 0-E to reduce chances of the player getting stuck
+Fixed the player being able to stay invulnerable when taking damage in 0-E's second half
+Fixed the holographic leaves of Limbo trees sometimes causing the player to not be able to ground slam
+Fixed 1-2's level name appearing at the start of the level instead of the halfway point
+Reaching the first balcony of 1-2 without spawning all enemies will spawn them automatically to make them less easy to miss
+Fixed the Cerberus in 1-2 still using the old model
+Fixed the Cerberus in 1-2 having a spawn effect
+The Streetcleaners in 1-2 can now properly exit their room
+1-4 V2 can no longer fall back out the window it came in through
+1-4's tip of the day no longer shows 0-E's
+The 1-4 bookshelf can no longer be pushed into the corner to become stuck
+Fixed 1-E not getting a gold border after being P-ranked
+A few 1-E checkpoints can no longer be activated through walls and ceilings
+The player can no longer clip out of bounds by riding the locks in 1-E's pit room doors
+Fixed the unbreakable glass in 1-E not using the unbreakable glass texture
+Fixed the final arena in 1-E having its corner clip through into an earlier room
+Backtracking after placing the blue skull in 1-E will no longer deload its staircase
+Fixed an errant scrolling floor texture in 1-E
+Fixed players clipping through the walls of 1-E's pit room when standing on the doors
+The player can no longer go out of bounds by backtracking towards 1-E's lava room and falling into a fan
+Fixed the 1-E first Hideous Mass arena disappearing after returning with a blue skull
+Fixed a missing collider in 2-3
+2-4 no longer plays 2-3's music when the player uses the Teleport cheat
+Updated UIs for 2-S and the Museum
+Fixed 3-1's final room Filth not being able to walk onto the bridge
+Fixed 3-1's final room Drones spawning inside the walls
+Fixed the elevator pit from 3-1 to P-1 not rendering
+Removed some leftover old bone geometry in 3-1's final arena
+Two of the drones in 3-1's final arena no longer spawn inside the walls
+Fixed the Filth in 3-1's final arena being unable to walk onto the bone bridge
+The 3-2 eye is no longer cuttable with launched chainsaws and heated nails
+Fixed 3-2's death screen not having its black background
+The eyes can no longer spawn inside geometry in P-1
+Coins now correctly target Flesh Prison and Panopticon
+Fixed a hole in a 3-2 ceiling
+Fixed the P-1 entrance pit being invisible
+4-3 no longer has the wrong Railcannon meter graphic
+Fixed gaps in 4-4's secret room walls
+Ferryman can no longer get stuck on top of the edges of the ship
+Fixed the limbs in 5-2's ocean not rendering
+Improved performance on Leviathan's second phase
+The boss death sequences in 5-4 and 7-4 now heal the player for dramatic effect
+Fixed 5-4's second phase music not playing
+Added a +DOWN TO SIZE style bonus for parrying Leviathan
+Fixed Leviathan's projectiles not working on Harmless difficulty
+Fixed Leviathan not dying when using the Kill All Enemies cheat in its first phase
+Fixed 5-S's terminal not being lit by outdoors lights
+The player can no longer pick up an intangible object by punching the top of a chain-carried coffin in 6-1
+Fixed the coffin chains clipping through the ceiling on the roof of the 6-1 chapel
+Fixed the 6-2 boss door opening too slowly
+Changed the skull above the P-2 door into a 3D model
+Moved a lamp in P-2 slightly to allow for speedrunning setups
+Fixed multiple out of bounds holes in the P-2 intro
+7-2 Tram station no longer has a pillar that enemies can walk through
+7-3's music now pitches down correctly when marked for death
+Fixed Cerberi in 7-3 not infighting
+Fixed the ceiling bugged geometry of a doorway in 7-3
+7-4 now functions properly with Clash mode
+Added a rain sound effect to the end of 7-4
+Fixed the 7-S screen no longer saying "Thank you" after completion
+Fixed the final checkpoint in 7-S not appearing
+Fixed the Cyber Grind starting wave not being automatically loaded on level restart
+Fixed the Cyber Grind terminal not playing music
+The Cyber Grind fog setting minimum is now locked below the maximum to avoid visual bugs
+Fixed Cyber Grind glow not being the correct color when starting from a wave above 25
+Fixed the Museum bins only destroying one plushie per bin
+Fixed the Museum Swordsmachine having the wrong pose
+Fixed the Museum vinyl player not having a texture
+Fixed the Museum theater screen lowering altar being the wrong color
+Fixed the Museum rocket ride rings only being visible from one side
+Fixed skull altars not being deletable in the Sandbox
+Updated some unupdated Sandbox spawn menu icons
